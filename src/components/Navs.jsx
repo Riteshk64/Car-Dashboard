@@ -5,6 +5,7 @@ import { FaHome, FaPhoneAlt, FaMusic, FaCar } from 'react-icons/fa';
 import { FaLocationDot} from 'react-icons/fa6';
 import { MdKeyboardVoice } from 'react-icons/md';
 import { CgScreenMirror } from 'react-icons/cg';
+import SideBar from './SideBar';
 
 const Navs = () => {
   const LINKS = [
@@ -25,6 +26,8 @@ const Navs = () => {
 
   return (
     <div>
+      <SideBar />
+
       <NavList>
         {LINKS.map(item => (
           <li key={item.to}>

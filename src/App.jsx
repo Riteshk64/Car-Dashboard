@@ -7,6 +7,7 @@ import Voice from './Pages/Voice';
 import Music from './Pages/Music';
 import Car from './Pages/Car';
 import Mirror from './Pages/Mirror';
+import Settings from './Pages/Settings';
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
               <Route path="/music" element={<Music />} />
               <Route path="/car" element={<Car />} />
               <Route path="/mirror" element={<Mirror />} />
+              <Route path="/settings" element={<Settings />} />
             </Route>
           </Routes>
         </HashRouter>

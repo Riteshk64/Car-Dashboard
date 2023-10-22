@@ -36,7 +36,9 @@ const MenuWrapper = styled.div`
     font-size: 25px;
     color: white;
     font-size: 56px;
+
     align-items: center;
+    margin-right: 7px;
 
     &:active{
         color: rgb(82, 113, 255);

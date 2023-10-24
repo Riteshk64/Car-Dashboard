@@ -26,10 +26,12 @@ const LinkSideBar = styled(NavLink)`
     top: 0;
     bottom: 0;
     width: 75px;
+    background-color: rgb(18,18,25);
 
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 `;
 
 const MenuWrapper = styled.div`
@@ -63,4 +65,5 @@ const SosWrapper = styled.div`
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    z-index: 1001;
 `;

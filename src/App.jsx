@@ -8,12 +8,12 @@ import Music from './Pages/Music';
 import Car from './Pages/Car';
 import Mirror from './Pages/Mirror';
 import Settings from './Pages/Settings';
-import './App.css';
+import styled from 'styled-components';
 
 function App() {
   return (
     <>
-      <div className='main'>
+      <MainWrapper>
         <HashRouter>
           <Routes>
             <Route element={<MainLayout />}>
@@ -28,9 +28,20 @@ function App() {
             </Route>
           </Routes>
         </HashRouter>
-      </div>
+      </MainWrapper>
     </>
   );
 }
 
 export default App;
+
+const MainWrapper = styled.div`
+width: 1000px;
+height: 600px;
+background-color: rgb(18,18,25);
+
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+`;

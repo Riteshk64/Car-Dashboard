@@ -13,6 +13,7 @@ export default function DateTime(props){
 
 const TitleWrapper = styled.div`
   color: white;
+  z-index: 1000;
 `;
 
 const P = styled.div`

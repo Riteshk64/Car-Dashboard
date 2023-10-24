@@ -92,6 +92,7 @@ const NavList = styled.ul`
   padding: 0px 0px;
   height: 75px;
   width: 100%;
+  z-index: 1000;
 `;
 
 const LinkStyled = styled(NavLink)`
